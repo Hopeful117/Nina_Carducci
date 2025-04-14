@@ -244,6 +244,18 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+#info{
+	display:flex;
+	flex-direction: column;
+	
+	justify-content: flex-start;
+	align-items: center;
+	font-weight: 600;
+
+	
+
+	margin-top: 50px;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
